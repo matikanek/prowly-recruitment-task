@@ -1,0 +1,11 @@
+<form [formGroup]="ownerForm" (ngSubmit)="onSubmit()">
+    <input formControlName="fullName" type="text" placeholder="Full name" />
+    <input formControlName="email" type="text" placeholder="email"/>
+    <p *ngIf="ownerForm.controls['email'].hasError('domainLimit')">{{ ownerForm.controls['email'].errors.domainLimit.massage }}</p>
+    <ng-container *ngIf="animals$ | async as animals">
+        <select formControlName="animalSelect">
+            <option *ngFor="let animal of animals" [value]="animal.id" [selected]="editMode ? animal.id === selectedAnimalId : false">{{ animal.name }}</option>
+        </select>
+    </ng-container>
+    <button>Submit</button>
+</form>

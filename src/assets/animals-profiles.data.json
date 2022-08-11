@@ -1,0 +1,19 @@
+{
+  "profiles": [
+    {
+      "id": 10,
+      "photoUrl": "https://pbs.twimg.com/profile_images/1478427037828222979/5PZeVpkP_400x400.jpg",
+      "animalId": 1
+    },
+    {
+      "id": 14,
+      "photoUrl": null,
+      "animalId": 2
+    },
+    {
+      "id": 18,
+      "photoUrl": "https://images.theconversation.com/files/86375/original/image-20150625-12984-1416ek3.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "animalId": 3
+    }
+  ]
+}

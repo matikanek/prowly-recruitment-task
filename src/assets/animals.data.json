@@ -1,0 +1,22 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Clifford",
+      "type": "dog",
+      "profileId": 10
+    },
+    {
+      "id": 2,
+      "name": "King Kong",
+      "type": "monkey",
+      "profileId": 14
+    },
+    {
+      "id": 3,
+      "name": "Laura",
+      "type": "parrot",
+      "profileId": 18
+    }
+  ]
+}

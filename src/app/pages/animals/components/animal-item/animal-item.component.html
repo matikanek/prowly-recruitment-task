@@ -1,0 +1,2 @@
+<p class="animal-item" (click)="onSelectAnimal(animal.id)">{{ animal.name }} {{ animal.type }}</p>
+<img *ngIf="animal.photoUrl" [src]="animal.photoUrl" />
