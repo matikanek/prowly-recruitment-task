@@ -26,7 +26,7 @@ Validator should check:
 
 Tutaj zastanawiałem się czy utworzyć nowy komponent i powielić niepotrzebnie kod formularza czy już we wcześniej utworzonym komponencie z formularzem wyróżnić jakiś editMode. (wybrałem to drugie chociaż przez
 to rozwiązanie słabo wygląda moduł routingu w kontekście 6 zadania: komponent OwnerFormComponent jest raz lazy załadowany przez moduł w którym się znajduje dla route-a 'owners/new' a raz potrzebuję go dla
-route-a animals/:animalId, przez co musiałem wyeksportować OwnerFormComponent z modułu Owner dla AppModule)
+route-a animals/:animalId, przez co musiałem wyeksportować OwnerFormComponent z modułu Owner dla AppModule) W praktyce moduł ten nie jest lazy loadowany
 
 ### 5. In animals list (`AnimalsListComponent`), we want to show animal's photo. Photo is stored in AnimalProfile. Use `getAnimalsProfiles` selector (take a look at `app/src/state`), and combine it with `getAnimals` selector. Remember to dispatch an action to get profiles.
 
